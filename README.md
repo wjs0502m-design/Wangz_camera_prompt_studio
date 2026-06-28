@@ -18,7 +18,7 @@
 
 **결과물 예시 / Example output:**
 
-!\[Example](https://raw.githubusercontent.com/wjs0502m-design/Wangz\_camera\_prompt\_studio/main/assets/example.png)
+![Example](https://raw.githubusercontent.com/wjs0502m-design/Wangz_camera_prompt_studio/main/assets/example.png)
 
 > \*right side extreme low-angle wide shot, 28mm wide-angle lens, extremely shallow depth of field heavy bokeh, 35mm film grain analog texture, Japanese Gothic-style ribbon-decorated maid girl, golden hour warm sunlight glowing rim light --ar 16:9 --v 6.0\*
 
