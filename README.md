@@ -13,8 +13,7 @@
 
 **Wangz Camera Prompt Studio** replaces the need for multiple nodes by combining camera angle, lens, depth of field, film filter, and mood into a **single clean node** with dropdown controls.
 
-기존의 `Qwen Multiangle Camera` + `CR Prompt Text` 두 노드를 하나로 합쳐,  
-스파게티 선 없이 깔끔하게 최종 프롬프트를 출력합니다.
+기존의 `Qwen Multiangle Camera` + `CR Prompt Text` 두 노드를 하나로 합쳐, 스파게티 선 없이 깔끔하게 최종 프롬프트를 출력합니다.
 
 **결과물 예시 / Example output:**
 
