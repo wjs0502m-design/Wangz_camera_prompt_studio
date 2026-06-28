@@ -3,9 +3,9 @@
 > \*\*One node. Full cinematic control.\*\*  
 > 카메라 앵글 · 렌즈 · 심도 · 필터 · 무드를 드롭다운 하나로 제어하는 ComfyUI 통합 프롬프트 노드
 
-!\[ComfyUI](https://img.shields.io/badge/ComfyUI-Custom\_Node-blue?style=flat-square)
-!\[Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square)
-!\[License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
+![ComfyUI](https://img.shields.io/badge/ComfyUI-Custom\_Node-blue?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3.8+-green?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)
 
 \---
 
