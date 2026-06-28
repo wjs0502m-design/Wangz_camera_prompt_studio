@@ -45,7 +45,7 @@ After restarting ComfyUI, search for **"Camera Prompt Studio"** or **"📷"** in
 ComfyUI Manager → Install via Git URL 에 아래 주소를 입력:
 
 ```
-https://github.com/wjs0502m-design/Wangz\_camera\_prompt\_studio
+https://github.com/wjs0502m-design/Wangz_camera_prompt_studio
 ```
 
 \---
