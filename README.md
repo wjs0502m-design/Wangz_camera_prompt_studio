@@ -30,10 +30,10 @@
 
 ```
 ComfyUI/
-└── custom\_nodes/
-    └── Wangz\_camera\_prompt\_studio/   ← 이 폴더를 여기에 복사
-        ├── \_\_init\_\_.py
-        └── camera\_prompt\_node.py
+└── custom_nodes/
+    └── Wangz_camera_prompt_studio/   ← 이 폴더를 여기에 복사
+        ├── __init__.py
+        └── camera_prompt_node.py
 ```
 
 ComfyUI를 재시작한 후 노드 검색창에 **"Camera Prompt Studio"** 또는 **"📷"** 로 검색하세요.
@@ -54,25 +54,25 @@ https://github.com/wjs0502m-design/Wangz_camera_prompt_studio
 
 |Input|Type|Options|Description|
 |-|-|-|-|
-|`horizontal\_angle`|Dropdown|front, front-right quarter, right side... (8종)|수평 앵글|
-|`vertical\_angle`|Dropdown|eye-level, low-angle, extreme low-angle... (6종)|수직 앵글|
-|`shot\_distance`|Dropdown|extreme close-up → extreme wide (8종)|거리 / 샷 크기|
-|`lens\_type`|Dropdown|85mm, 28mm wide-angle, Anamorphic... (10종 + none)|렌즈 종류|
-|`depth\_of\_field`|Dropdown|shallow bokeh, deep sharp, dreamy blur... (6종)|심도 / 초점|
-|`film\_filter`|Dropdown|mist, 35mm grain, light leak... (9종 + none)|필름 / 필터 효과|
-|`mood\_preset`|Dropdown|golden hour, noir, city pop... (7종 + none)|분위기 프리셋|
-|`base\_prompt`|Text|free input|인물 / 배경 묘사 자유 입력|
-|`tail\_params`|Text|e.g. `--ar 16:9 --v 6.0`|후미 파라미터|
+|`horizontal_angle`|Dropdown|front, front-right quarter, right side... (8종)|수평 앵글|
+|`vertical_angle`|Dropdown|eye-level, low-angle, extreme low-angle... (6종)|수직 앵글|
+|`shot_distance`|Dropdown|extreme close-up → extreme wide (8종)|거리 / 샷 크기|
+|`lens_type`|Dropdown|85mm, 28mm wide-angle, Anamorphic... (10종 + none)|렌즈 종류|
+|`depth_of_field`|Dropdown|shallow bokeh, deep sharp, dreamy blur... (6종)|심도 / 초점|
+|`film_filter`|Dropdown|mist, 35mm grain, light leak... (9종 + none)|필름 / 필터 효과|
+|`mood_preset`|Dropdown|golden hour, noir, city pop... (7종 + none)|분위기 프리셋|
+|`base_prompt`|Text|free input|인물 / 배경 묘사 자유 입력|
+|`tail_params`|Text|e.g. `--ar 16:9 --v 6.0`|후미 파라미터|
 |`separator`|Dropdown|comma / newline / comma+newline|블록 구분자|
-|`include\_angle\_prefix`|Toggle|true / false|`<sks>` 프리픽스 자동 삽입 여부|
-|`external\_angle\_prompt` *(optional)*|String|—|Qwen Multiangle 등 외부 노드 연결 시 앵글 덮어쓰기|
+|`include_angle_prefix`|Toggle|true / false|`<sks>` 프리픽스 자동 삽입 여부|
+|`external_angle_prompt` *(optional)*|String|—|Qwen Multiangle 등 외부 노드 연결 시 앵글 덮어쓰기|
 
 \---
 
 ## 📤 Output Structure / 출력 구조
 
 ```
-\[<sks>] \[앵글] + \[렌즈, 심도, 필터] + \[기본 프롬프트] + \[무드] + \[--파라미터]
+[<sks>] [앵글] + [렌즈, 심도, 필터] + [기본 프롬프트] + [무드] + [--파라미터]
 ```
 
 **Example:**
@@ -90,10 +90,10 @@ city pop retro 1980s Japan aesthetic neon reflections --ar 16:9 --v 6.0
 
 **Qwen Multiangle Camera를 그대로 쓰고 싶다면?**
 
-Qwen Multiangle Camera의 `prompt` 출력 → 이 노드의 `external\_angle\_prompt` 입력에 연결하면,  
+Qwen Multiangle Camera의 `prompt` 출력 → 이 노드의 `external_angle_prompt` 입력에 연결하면,  
 드롭다운 앵글 대신 **Qwen의 3D UI 앵글 텍스트가 우선 적용**됩니다.
 
-Connect Qwen Multiangle Camera's `prompt` output → this node's `external\_angle\_prompt` input.  
+Connect Qwen Multiangle Camera's `prompt` output → this node's `external_angle_prompt` input.  
 Qwen's 3D angle text will override the dropdown — switch freely between both modes.
 
 \---
